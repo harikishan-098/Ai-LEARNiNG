@@ -24,11 +24,12 @@ public class CorsConfig {
         
         // Allow specific origins (localhost for development)
         config.setAllowedOriginPatterns(Arrays.asList(
-            "http://localhost:*",
-            "http://127.0.0.1:*",
-            "http://localhost:3000",
-            "http://localhost:5173"
-        ));
+    "http://localhost:*",
+    "http://127.0.0.1:*",
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "https://harikishan-098.github.io"
+));
         
         // Allow all headers
         config.setAllowedHeaders(List.of("*"));
