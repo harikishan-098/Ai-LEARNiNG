@@ -90,7 +90,7 @@ function App() {
     )}
 
       <footer className="footer">
-        <p>© 2026 AI Learn & Visualize • </p>
+        <p>© 2026 AI Learn & Visualize • Powered by OpenAI</p>
       </footer>
 
     </div>
